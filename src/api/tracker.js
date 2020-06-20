@@ -2,7 +2,7 @@ import axios from 'axios';
 import { AsyncStorage } from 'react-native'
 
 const instance = axios.create({
-    baseURL: 'http://da83ae32c977.ngrok.io'
+    baseURL: 'http://884005a65ecd.ngrok.io'
 });
  
 instance.interceptors.request.use(
@@ -22,9 +22,7 @@ instance.interceptors.request.use(
     }
 );
 
-
-
-// export default instance;
+export default instance;
 
 
 // import axios from 'axios';
@@ -32,7 +30,7 @@ instance.interceptors.request.use(
 
 // let url;
 // if (__DEV__) {
-//   url = 'http://38bb4a21ed05.ngrok.io';
+//   url = 'http://99f8fc15afd7.ngrok.io';
 // } else {
 //   url = 'https://sleepy-savannah-10606.herokuapp.com';
 // }

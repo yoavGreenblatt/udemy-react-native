@@ -14,10 +14,10 @@ const SigninScreen = () => {
         instead we can pass it callback funtions */}
         <NavigationEvents 
           onWillFocus={clearErrorMessage}
-          onDidFocus={() => {}}
-        //   onWillFBlur={() => { clearErrorMessage() }} // we have function a function that is calling another function
-          onWillFBlur={clearErrorMessage}
-          onDidFBlur={() => {}}
+        //   onDidFocus={() => {}}
+        // //   onWillFBlur={() => { clearErrorMessage() }} // we have function a function that is calling another function
+        //   onWillFBlur={clearErrorMessage}
+        //   onDidFBlur={() => {}}
         />
         <AuthForm
         headerText='Sign in to your account'
